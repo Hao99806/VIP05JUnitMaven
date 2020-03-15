@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.maven.VIP05JUnitMaven.LoginParamTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE! - in com.testing.maven.VIP05JUnitMaven.LoginParamTest
+test[用户名：r,密码123456,预期结果是：用户名密码](com.testing.maven.VIP05JUnitMaven.LoginParamTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.junit.ComparisonFailure: 登录测试的结果 expected:<用户名密码[]> but was:<用户名密码[长度应是3-16位！]>
+	at com.testing.maven.VIP05JUnitMaven.LoginParamTest.test(LoginParamTest.java:41)
+
